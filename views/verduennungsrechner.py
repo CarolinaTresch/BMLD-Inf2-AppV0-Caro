@@ -1,6 +1,6 @@
 import streamlit as st
 
-from functions.verdunnung import berechne_verdunnung
+from functions.verdunnung import berechne_verduennung
 
 # Titel
 st.title("🧪 Verdünnungsrechner")
@@ -41,7 +41,7 @@ st.divider()
 # Ergebnisbereich
 if berechnen:
 
-    v1, losungsmittel = berechne_verdunnung(c1, c2, v2)
+    v1, losungsmittel = berechne_verduennung(c1, c2, v2)
 
     if v1 is not None:
 
