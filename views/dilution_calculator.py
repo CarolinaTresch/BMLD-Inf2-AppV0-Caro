@@ -5,10 +5,7 @@ from functions.verdunnung import berechne_verduennung
 # Titel
 st.title("🧪 Verdünnungsrechner")
 
-st.write(
-    "Mit diesem Rechner kann man berechnen, wie viel Stammlösung "
-    "für eine gewünschte Zielkonzentration benötigt wird."
-)
+
 
 st.divider()
 
